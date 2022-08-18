@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link Font Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- Link Box Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- Link Swiper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- Link Boostrap 5 -->
+
+
+    <title>Streaming Anime | AnimeLovers</title>
+</head>
+
+<body>
+
+    <nav class="navbar item">
+        <i class='bx bx-menu icon'></i>
+        <div class="logo">
+            <img src="./image/logo anime.png" alt="" srcset="">
+        </div>
+        <ul class="menu">
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Movie</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">OVA</a></li>
+            <li><a href="#">ONA</a></li>
+            <li><a href="#">Ongoing</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" placeholder="What are you looking for?">
+            <div class="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="cancel-icon">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="search-data">
+            </div>
+        </div>
+        
+    </nav>
+
+    <!-- <header >
+        <div class="max-width">
+            <br>
+        </div>
+        <div class="max-width">
+            <div id="time">
+                <div class="circle" style="--clr:#ff2972;">
+                    <div class="dots hr_dot"></div>
+                    <svg>
+					<circle cx="70" cy="70" r="70"></circle>
+					<circle cx="70" cy="70" r="70" id="hh"></circle>
+				</svg>
+                    <div id="hours">00</div>
+                </div>
+                <div class="circle" style="--clr:#fee800;">
+                    <div class="dots min_dot"></div>
+                    <svg>
+					<circle cx="70" cy="70" r="70"></circle>
+					<circle cx="70" cy="70" r="70" id="mm"></circle>
+				</svg>
+                    <div id="minutes">00</div>
+                </div>
+                <div class="circle" style="--clr:#04fc43;">
+                    <div class="dots sec_dot"></div>
+                    <svg>
+					<circle cx="70" cy="70" r="70"></circle>
+					<circle cx="70" cy="70" r="70" id="ss"></circle>
+				</svg>
+                    <div id="seconds">00</div>
+                </div>
+                <div class="ap">
+                    <div id="ampm">AM</div>
+                </div>
+            </div>
+            
+        </div>
+    </header> -->
+    
+    <div class="max-width">
+        <div class="content">
+            <div class="sidebar">
+                <div class="movie">
+                    <header>
+                        <h3>New Release</h3>
+                    </header>
+                    <div class="content-item">
+                        <div class="item">
+                            <div class="image">
+                                <img src="./image/Gunjou-no-Fanfare.webp" alt="">
+                            </div>
+                            <div class="description">
+                                <p>Gunjou-no-Fanfa...</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="./image/Ai-no-Utagoe-wo-Kikasete.webp" alt="">
+                            </div>
+                            <div class="description">
+                                <p>Ai-no-Utagoe-wo...</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="./image/Fruits-Basket-Prelude.jpg" alt="">
+                            </div>
+                            <div class="description">
+                                <p>Fruits-Basket-Prel...</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="./image/Kakkou-no-Iinazuke.jpg" alt="">
+                            </div>
+                            <div class="description">
+                                <p>Kakkou-no-Iinazuke</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="./image/Kawaii-dake-ja-Nai-Shikimori-san.webp" alt="">
+                            </div>
+                            <div class="description">
+                                <p>Kawaii dake ja Nai... </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="./image/Yosuga-no-Sora-In-Solitude-Where-We-Are-Least-Alone..jpg" alt="">
+                            </div>
+                            <div class="description">
+                                <p>Yosuga-no-Sora</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="./image/One-Piece.webp" alt="">
+                            </div>
+                            <div class="description">
+                                <p>One-Piece</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="./image/RWBY-Hyousetsu-Teikoku.webp" alt="">
+                            </div>
+                            <div class="description">
+                                <p>RWBY-Hyousetsu...</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="./image/Spy-x-Family.webp" alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Spy-x-Family</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Brave Witches.webp " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Brave Witchese: P...</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Zanting! Rang Wo Cha Gonglüe.jpg " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Zanting! Rang Wo...</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Tate no Yuusha no Nariagari S2.jpg " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Tate no Yuusha no...</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Komi-san-wa-Comyushou-desu.-2nd-Season.jpg " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Komi-san-wa-Comyushou...</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/5-toubun no Hana.webp " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>5-toubun-no-Hanayome...</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Gotoubun-no-Hanayome.jpg " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Gotoubun-no-Hanayome...</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#">
+                                    <i class='bx bx-first-page'></i>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">
+                                    <i class='bx bx-last-page'></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="recomendations" style="margin-top:15px ;">
+                    <header>
+                        <h3>Popular Anime</h3>
+                    </header>
+                    <div class="content-item ">
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Brave Witches..webp " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Brave Witches</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Majo-no-Tabitabi.jpg" alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Majo-no-Tabitabi</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Horimiya.jpg " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Horimiya</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Kaguya-sama-wa-Kokurasetai-Ultra-Romantic.jpg " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Kaguya-sama-wa...</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Pokemon-Legends-Arceus-Yuki-Hodo-Kishi-Futaai.jpg " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Pokemon-Legends...</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Koe-no-Katachi.webp " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Koe-no-Katachi</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Jujutsu Kaisen.webp " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Jujutsu Kaisen 0 ...</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Hunter-x-Hunter-2011.webp " alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Hunter-x-Hunter...</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Kimi-no-Na-wa..webp" alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Kimi-no-Na-wa...</p>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="image ">
+                                <img src="./image/Date-A-Live.jpg" alt=" ">
+                            </div>
+                            <div class="description ">
+                                <p>Date-A-Live</p>
+                            </div>
+                        </div>
+                    </div>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#">
+                                    <i class='bx bx-first-page'></i>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">
+                                    <i class='bx bx-last-page'></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="leftbar ">
+                <div class="container-news ">
+                    
+                    <h3>Latest News</h3>
+                    <img src="./image/backround-kakkou.jpg " alt=" ">
+                    <p>Nagi Umino and Erika Amano, a studious high school student and a social media star, had nothing that linked them together—until they found out they were swapped at birth. When the sudden news is revealed to both of their families, their parents quickly devise a proposition with neither Nagi's nor Erika's knowledge: in order to restore them both to their rightful families and ensure everyone's happiness, the two should get engaged.</p>
+                    <div class="menu-item-card ">
+                        <div class="menu-item-genre ">
+                            <a href="# ">Eps 1</a>
+                        </div>
+                        <div class="menu-item-genre ">
+                            <a href="# ">Eps 2</a>
+                        </div>
+                        <div class="menu-item-genre ">
+                            <a href="# ">Eps 3</a>
+                        </div>
+                        <div class="menu-item-genre ">
+                            <a href="# ">Eps 4</a>
+                        </div>
+                        <div class="menu-item-genre ">
+                            <a href="# ">Eps 5</a>
+                        </div>
+                        <div class="menu-item-genre ">
+                            <a href="# ">Eps 6</a>
+                        </div>
+                        <div class="menu-item-genre ">
+                            <a href="# ">Eps 7</a>
+                        </div>
+                        <div class="menu-item-genre ">
+                            <a href="# ">Eps 8</a>
+                        </div>
+                    </div>
+                    <div class="title-link-genre ">
+                        <a href="# ">Complete</a>
+                    </div>
+
+                </div>
+
+                <div class="menu-genre" style="margin-top: 1rem;">
+                    <h3>Genre : </h3>
+                    <div class="genre-opsi ">
+                        <div class="genre ">
+                            <a href="# ">Ecchi</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Action</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Romance</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Comedy</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Adventure</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Drama</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Fantasy</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Horor</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Mystery</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Sci-Fi</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Mecha</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Hentai</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Harem</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Isekai</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Demons</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Game</a>
+                        </div>
+
+                        <div class="genre ">
+                            <a href="# ">Parody</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Shoujo</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">School</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Music</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Shounen</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Seinen</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Military</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Vampire</a>
+                        </div>
+                        <div class="genre ">
+                            <a href="# ">Magic</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="on-going">
+                    <div class="image-ongoing">
+                        <h3>On-Going</h3>
+                        <img src="./image/Pause-let-me-check-the-guide-donghua.jpg" alt="" srcset="">
+                    </div>
+                    <p>
+                        Liu Yinuo, a 30-year-old ordinary office worker, was accidentally summoned to the game world. To get back to the real world, Liu Yinuo, an excellent game player, began to teach an 18-year-old girl, 
+                        Tian Enya to play games, who is the savior in the game world. In the end, the two girls finished the goal in the game world with the help of many partners and returned to the real world with a more positive attitude towards life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-item ">
+        <div class="copyright"><a href="#">Privacy Policy - DMCA - Contact</a>
+        </div>
+        <div class="copyright-end">
+            <a href="#"> © 2022 Myanime List  All rights reserved</a>
+        </div>
+
+    </footer>
+
+
+
+    <script src="main.js "></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js "></script>
+
+</body>
+
+</html>
